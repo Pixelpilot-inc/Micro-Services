@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 const sendContactEmail = async ({ name, email, phone, description }) => {
   const mailOptions = {
     from: email, // Sender's email
-    to: 'khedekar5aditya@gmail.com', // Recipient's email
+    to: 'sahil.kumar@somaiya.edu', // Recipient's email
     subject: `New message from ${name}`, // Subject of the email
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nDescription: ${description}`, // Body of the email
   };
